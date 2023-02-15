@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
         if (anim)
         {
-            anim.SetFloat("RunSpeedAnimFactor_f", speed / 10f);
+            anim.SetFloat("", speed / 10f);
         }
     }
 
